@@ -1,0 +1,72 @@
+Project Overview
+This project is a File-Driven Data Processing Application developed using Python. It reads sales data from an external CSV file and processes it to generate useful insights such as total sales, average sales, and highest/lowest sales.
+The program uses Python’s built-in external modules to efficiently handle file operations and perform data analysis. It simulates a real-world data processing system where information is stored externally and processed dynamically.
+
+Objectives
+Understand file-driven application development
+Work with CSV files for data storage
+Use external Python modules
+Perform data analysis and generate reports
+Build a menu-driven system
+
+Tools & Technologies
+Python 3
+VS Code / IDLE
+CSV file (sales.csv)
+
+External Modules Used
+csv → for reading data from files
+os → for file checking
+statistics → for calculating average
+
+Project Description
+
+The application reads sales data stored in a CSV file. Each record contains:
+Product Name
+Quantity Sold
+Price per Unit
+
+The program processes this data and provides:
+Total sales amount
+Average sales value
+Highest sale
+Lowest sale
+
+The system is menu-driven, allowing users to select different operations and view results interactively.
+
+Key Concepts Used
+File handling
+CSV processing
+External modules
+Functions
+Loops (while)
+Conditional statements (if-elif-else)
+Data processing
+
+Algorithm
+Start the program
+Check if the CSV file exists
+Display the menu
+Read user input
+Perform selected operation:
+View records
+Calculate total sales
+Calculate average sales
+Find highest and lowest sales
+Display result
+Repeat until user exits
+
+Features
+Reads data from external CSV file
+Uses multiple Python modules
+Calculates total sales
+Finds average sales
+Identifies highest and lowest sales
+Menu-driven interface
+Easy to use and beginner-friendly
+
+Result
+The system successfully processes sales data from a file and generates meaningful reports such as total, average, highest, and lowest sales.
+
+Conclusion
+This project demonstrates how Python can be used to build a file-driven data processing system using external modules. It provides a practical understanding of working with real-world data and performing analysis using Python.
